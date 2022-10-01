@@ -1,0 +1,411 @@
+body {
+  margin: auto;
+  padding: 0;
+  max-width: 1440px;
+}
+
+body div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .ana {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .ana .top {
+  background: #ebfbff;
+  width: 100%;
+  height: 40%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .ana .top .top-1 {
+  width: 100%;
+  height: 160px;
+}
+
+body .ana .top .top-1 .lgo {
+  width: 300px;
+  height: auto;
+  margin: auto;
+  margin-left: 4%;
+}
+
+body .ana .top .top-1 .try {
+  width: 350px;
+  height: auto;
+  background: white;
+  border-radius: 50px 50px;
+  -webkit-box-shadow: 2px 2px 6px #aaa6a6;
+          box-shadow: 2px 2px 6px #aaa6a6;
+  margin: auto;
+  margin-right: 4%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+body .ana .top .top-2 {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+body .ana .top .top-2 .top-rg .mc {
+  width: 80%;
+  height: 80%;
+  margin: 4% 5% 8% 9%;
+  position: relative;
+}
+
+body .ana .top .top-2 .top-lf {
+  padding: auto;
+  margin-left: 4%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 35%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .ana .top .top-2 .top-lf .try-2 {
+  width: 90%;
+  margin-top: 3%;
+  background: #f50a9b;
+  border-radius: 50px 50px;
+  -webkit-box-shadow: 2px 2px 6px #aaa6a6;
+          box-shadow: 2px 2px 6px #aaa6a6;
+  color: aliceblue;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 25px;
+}
+
+body .ana .content {
+  width: 80%;
+  margin: auto;
+  margin-top: 15%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .ana .content .c-img {
+  width: 40%;
+  margin: auto;
+}
+
+body .ana .content .content-1, body .ana .content .content-2, body .ana .content .content-3 {
+  -webkit-box-shadow: 2px 2px 6px #aaa6a6;
+          box-shadow: 2px 2px 6px #aaa6a6;
+  padding: 5%;
+  margin-bottom: 15%;
+  border-radius: 10px;
+}
+
+body .ana .content .content-1 .c1-lf, body .ana .content .content-2 .c1-lf, body .ana .content .content-3 .c1-lf {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 45%;
+  margin: 5%;
+}
+
+body .ana .ready {
+  -webkit-box-shadow: 2px 2px 6px #aaa6a6;
+          box-shadow: 2px 2px 6px #aaa6a6;
+  font-size: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15%;
+  border-radius: 10px;
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: -7%;
+  background-color: white;
+  z-index: 2;
+}
+
+body .ana .ready .btn {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 6%;
+  background: #f1099c;
+  border-radius: 50px 50px;
+  -webkit-box-shadow: 2px 2px 6px #aaa6a6;
+          box-shadow: 2px 2px 6px #aaa6a6;
+  color: aliceblue;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 25px;
+}
+
+body .ana .ready .r {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bolder;
+}
+
+body .footer {
+  width: 100%;
+  background-color: #00252e;
+  z-index: 1;
+}
+
+body .footer .ft {
+  width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 12%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .footer .ft .ft-1 {
+  width: 30%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2%;
+}
+
+body .footer .ft .ft-1 .lg-ss {
+  -webkit-filter: contrast(1%);
+          filter: contrast(1%);
+}
+
+body .footer .ft .ft-1 .nav {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .footer .ft .ft-1 .nav .nav-l {
+  padding: auto;
+  margin: auto;
+  margin-right: 4%;
+  padding-bottom: 5%;
+}
+
+body .footer .ft .ft-1 .nav .nav-t {
+  color: white;
+}
+
+body .footer .ft .ft-1 .tel {
+  margin-top: 1%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .footer .ft .ft-1 .tel .tel-l {
+  margin-bottom: 10%;
+  padding-top: 5%;
+  padding-right: 2%;
+}
+
+body .footer .ft .ft-1 .tel .tel-t {
+  color: white;
+}
+
+body .footer .ft .ft-1 .mail .mail-l {
+  margin-bottom: 9%;
+  padding-top: 5%;
+  padding-right: 2%;
+}
+
+body .footer .ft .ft-1 .mail .mail-t {
+  color: white;
+}
+
+body .footer .ft .ft-2 {
+  color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 30%;
+  margin-top: 1%;
+  margin-left: 6%;
+}
+
+body .footer .ft .ft-2 .sg {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  padding-left: 5%;
+}
+
+body .footer .ft .ft-2 .sl {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+}
+@media (max-width:992px){
+  body .ana .top{
+    background-image:url(/images/bg-hero-mobile.svg);
+  }
+  body .ana .top .top-1 .lgo {
+    width: 25%;
+  }
+  body .ana .top .top-1 .try{
+    width: 30%;
+    height: 40%;
+    align-items: center;
+  }
+  body .ana .top .top-2{
+    flex-direction: column;
+  }
+  body .ana .top .top-2 .top-lf{
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    font-weight:bold , lighter;
+
+  }
+  body .ana .top .top-2 .top-rg{
+    margin-top: 10%;
+
+  }
+  body .ana .content .content-1{
+    flex-direction: column-reverse;
+    height: 700px;
+    box-shadow: 2px 2px 6px rgb(170, 166, 166);
+    padding-bottom: 9%;
+    border-radius: 10px;
+  }
+  body .ana .content .content-2{
+    flex-direction: column;
+    height: 700px;
+    box-shadow: 2px 2px 6px rgb(170, 166, 166);
+    padding-bottom: 9%;
+    border-radius: 10px;
+  }
+  body .ana .content .content-3{
+    flex-direction: column-reverse;
+    height: 700px;
+    box-shadow: 2px 2px 6px rgb(170, 166, 166);
+    margin-bottom: 20%;
+    margin-top: 10%;
+    padding-bottom: 9%;
+    border-radius: 10px;
+  }
+  body .ana .content .content-1 .c1-lf{
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    flex-direction: column;
+    
+  }
+  body .ana .content .content-2 .c1-lf{
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    flex-direction: column;
+  }
+  body .ana .content .content-3 .c1-lf{
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    flex-direction: column;
+  }
+  body .ana .content .c-img{
+    width: 80%;
+  }
+  body .ana .ready{
+    width: 90%;
+    margin-bottom: -10%;
+  }
+  body .footer .ft {
+    flex-direction: column;
+    
+    margin: 13% 2% 2% 2%;
+    padding: 0;
+  }
+  body .footer .ft .ft-1{
+    width: 90%;
+    
+  }
+  body .footer .ft .ft-1 .nav{
+    margin-top: 6%;
+    
+  }
+  body .footer .ft .ft-1 .nav .nav-l{
+    padding: 0;
+    padding-bottom: 4%;
+    padding-top: 3%;
+
+    margin: 0;
+    margin-right: 3%;
+  }
+  body .footer .ft .ft-1 .tel .tel-l{
+    padding: auto;
+    padding: 5%;
+    padding-left: 0;
+    padding-right: 2%;
+    margin-top:-2% ;
+    margin-bottom: 0;
+
+  }
+  body .footer .ft .ft-1 .mail .mail-l{
+    padding: 0;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right:2% ;
+
+
+  }
+  body .footer .ft .ft-2{
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+  }
+  body .footer .ft .ft-2 .sl{
+    margin: 0;
+    margin-left: 6%;
+  }
+  body .footer .ft .ft-2 .sg{
+    margin:0%;
+  }
+}
+/*# sourceMappingURL=sytle.css.map */
